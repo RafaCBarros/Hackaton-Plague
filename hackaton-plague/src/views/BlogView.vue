@@ -9,7 +9,7 @@
       -->
     <h4 class="q-ma-lg">Combate e Prevenção</h4>
     <div class="row justify-between q-ma-lg">
-      <CartaMapa />
+      <CartaArtigo />
       <div class="column q-gutter-y-xl q-mr-xl">
         <CartaCidadao />
         <CartaBlog />
@@ -21,15 +21,15 @@
 
 <script>
 // @ is an alias to /src
-import CartaMapa from "@/components/cartas/cardMapa.vue";
+import CartaArtigo from "@/components/cartas/cardArtigo.vue";
 import CartaCidadao from "@/components/cartas/cardCidadao.vue";
 import CartaBlog from "@/components/cartas/cardBlog.vue";
 import CartaSecretaria from "@/components/cartas/cardSecretaria.vue";
 
 export default {
-  name: "HomeView",
+  name: "BlogView",
   components: {
-    CartaMapa,
+    CartaArtigo,
     CartaCidadao,
     CartaBlog,
     CartaSecretaria,
